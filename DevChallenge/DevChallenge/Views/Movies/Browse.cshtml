@@ -1,0 +1,11 @@
+﻿@model IEnumerable<DevChallenge.Models.Title>
+@{
+	ViewBag.Title = "Browse";
+}
+<h2>@ViewBag.SelectedGenre</h2>
+<ul class="wrapper filterTarget">
+	@foreach (var title in Model)
+ {
+		<li class="box">@Html.ActionLink(title.TitleName, "Details", new { id = title.TitleId })</li>
+ }
+</ul>
