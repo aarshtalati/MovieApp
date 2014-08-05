@@ -35,13 +35,11 @@ For mobile developers, you will be given the option to write your app targeting 
 
 If you are building an Android app, please include the apk with your submission.
 
-## Hints
+## Enhancements :
 
-* Do your best to impress us.
-* Expect us to use Lint your javascript
-* Form is as important as function.  If your app works, but is written like a website from 2001, this will be bad.
-* We're suckers for new technologies (i.e. Angular, media queries, MVC 4, Handlebars).
-* Creativity: Don't like our requirements? Feel free to enhance this app as you see fit.
-* Feel free to host the app somewhere (Azure, EC2, AppHarbor, etc)
+* Did my best to impress you!
+* Lint-ed my javascript
+* new technologies (i.e. Angular, media queries, MVC 4, Handlebars).
+* Creativity: Don't like the way it is? Feel free to enhance this app as you see fit.
 
 
