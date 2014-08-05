@@ -28,13 +28,6 @@ Example connection string: <add name="TitlesEntities" connectionString="data sou
 For mobile candidates, you can find the http api at [http://dc.tbs.io](http://dc.tbs.io)  
 
 
-## Code
-Unless otherwise directed, you have two options for building a website, .Net and node.js.  **There is a very good chance we will request you to use a specific framework, so double check the email we sent you to ensure you pick the correct one.**
-
-For mobile developers, you will be given the option to write your app targeting either iOS or Android devices.  **Make sure to check the instructions in the email from your recruiter to make sure you choose the correct platform.**
-
-If you are building an Android app, please include the apk with your submission.
-
 ## Enhancements :
 
 * Did my best to impress you!
