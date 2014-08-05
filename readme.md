@@ -1,15 +1,6 @@
-# Developer Challenge
-Thanks for being interested in a job at Turner Broadcasting.  You will have 24 hours from receipt of this document to:
+# Movie App
 
-* Write the code to complete the challenge
-* Push it up to a github or bitbucket repository
-* Send us the URL for the repo.
-
-We will then clone your repository, run the code, and assess your solution.
-
-## The Problem
-
-We would like you to build an application that allows users to:
+An application that allows users to:
 
 * Search for a Title by it's name.
 * Display the titles that match the above criteria.
