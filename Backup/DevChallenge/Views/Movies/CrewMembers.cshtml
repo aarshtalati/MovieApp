@@ -1,0 +1,39 @@
+﻿@model IEnumerable<DevChallenge.Models.Participant>
+@{
+	ViewBag.Title = "CrewMembers";
+}
+<h2>
+	Crew Members</h2>
+<table id="myTable" class="filterTarget" style="width: 80%;">
+	<tr>
+		<th>
+			Index
+		</th>
+		<th>
+			Name
+		</th>
+		<th>
+			ParticipantType
+		</th>
+	</tr>
+	@foreach (var item in Model)
+ {
+
+		<tr>
+			<td>
+				
+			</td>
+			<td>
+				@Html.DisplayFor(modelItem => item.Name)
+			</td>
+			<td>
+				@Html.DisplayFor(modelItem => item.ParticipantType)
+			</td>
+		</tr>
+ }
+</table>
+<script>
+	$('#myTable tr td:first-child()').each(function (idx) {
+		$(this).html(idx+1);
+	});
+</script>

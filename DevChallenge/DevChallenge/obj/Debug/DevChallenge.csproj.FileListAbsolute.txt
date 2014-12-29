@@ -1,9 +1,0 @@
-C:\Users\atalati\Documents\developer-challenge\DevChallenge\DevChallenge\obj\Debug\DevChallenge.csprojResolveAssemblyReference.cache
-C:\Users\atalati\Documents\developer-challenge\DevChallenge\DevChallenge\bin\DevChallenge.dll
-C:\Users\atalati\Documents\developer-challenge\DevChallenge\DevChallenge\bin\DevChallenge.pdb
-C:\Users\atalati\Documents\developer-challenge\DevChallenge\DevChallenge\bin\EntityFramework.dll
-C:\Users\atalati\Documents\developer-challenge\DevChallenge\DevChallenge\bin\EntityFramework.SqlServer.dll
-C:\Users\atalati\Documents\developer-challenge\DevChallenge\DevChallenge\bin\EntityFramework.xml
-C:\Users\atalati\Documents\developer-challenge\DevChallenge\DevChallenge\bin\EntityFramework.SqlServer.xml
-C:\Users\atalati\Documents\developer-challenge\DevChallenge\DevChallenge\obj\Debug\DevChallenge.dll
-C:\Users\atalati\Documents\developer-challenge\DevChallenge\DevChallenge\obj\Debug\DevChallenge.pdb
