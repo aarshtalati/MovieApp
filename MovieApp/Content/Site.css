@@ -1,0 +1,376 @@
+﻿* {
+	margin: 0px;
+	padding: 0px;
+	border: none;
+	color: Black;
+	font-family: "Segoe UI Light" !important;
+	font-family: "Segoe UI" !important;
+	font-size: 12pt;
+	font-variant: normal;
+	font-weight: 10;
+}
+
+#backGroundImage {
+	z-index: -1;
+	float:left;
+	width: 100%;
+}
+
+body {
+	font-family: Segoe UI;
+	font-size: 14px;
+	background-color: #FFF;
+	background: url(/content/Images/blackHawkLight.jpg) no-repeat scroll 0 0 transparent;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	position: relative;
+}
+
+#container {
+	float: left;
+}
+#logo {
+	background: url(/content/Images/logo.png) no-repeat;
+	width: 150px;
+	height: 100px;
+	float: left;
+}
+
+#logo + h1 {
+	color: Black;
+}
+
+header {
+	float: left;
+	width: 100%;
+	height: 50%;
+	margin-bottom: 25px;
+	background: no-repeat;
+	text-align: left;
+}
+#awards > li{
+float:left;
+margin-right: 20px;
+}
+
+#awards {
+list-style-type:none;
+}
+
+
+header h1:not(h1 .navbar), hgroup {
+	color: #000;
+	background-color: #fff;
+	font-size: 18px;
+	float: left;
+	padding: 10px 0px 5px 0px;
+	text-align: center;
+}
+
+#promotion {
+	height: 300px;
+	width: 700px;
+	background: url(/content/Images/home-showcase.png) no-repeat;
+}
+
+ul li a {
+	font-size: 16px;
+}
+
+#main {
+	overflow: hidden;
+	padding: 0 0 15px 10px;
+	float: left;
+}
+
+ul {
+	list-style-type: square;
+	margin-left: 25px;
+	font-size: 14px;
+}
+
+ul#album-list {
+	list-style: none;
+	margin-left: 0px;
+}
+
+ul#album-list li {
+	height: 130px;
+	width: 100px;
+	float: left;
+	margin: 10px;
+	text-align: center;
+}
+
+ul#album-list li a, ul#album-list li .button {
+	font-size: 13px;
+	float: left;
+}
+
+ul#album-list li a span {
+	color: #9b9993;
+	text-decoration: underline;
+}
+
+#update-message {
+	color: #F6855E;
+	font-weight: bold;
+}
+
+.button, input[type=submit] {
+	clear: both;
+	display: inline-block;
+	padding: 5px;
+	margin-top: 10px;
+	border: 1px;
+	background: #5e5b54;
+	color: #fff;
+	font-weight: bold;
+}
+
+.button a {
+	color: #fff !important;
+	height: 100%;
+}
+
+#footer {
+	clear: both;
+	padding: 10px;
+	text-align: right;
+	border-top: 1px dotted #8A8575;
+	border-bottom: 1px dotted #8A8575;
+	font-family: Segoe UI;
+}
+
+/******************** Top Navigation ************************/
+ul#navlist {
+	float: right;
+	margin-right: 10px;
+}
+
+ul#navlist li {
+	display: inline;
+}
+
+ul#navlist li a {
+	border-left: 1px dotted #00f;
+	padding: 10px;
+	margin-top: 10px;
+	color: #00f;
+	text-decoration: none;
+	float: left;
+}
+
+ul#navlist li:first-child a {
+	border: none;
+}
+
+ul#navlist li a:hover {
+	color: #F6855E;
+}
+
+/********************* End top navigation ***************************/
+.wrapper {
+	width: 98%;
+	height: auto;
+}
+
+.box {
+	display: inline-block;
+	position: relative;
+	width: 175px;
+	height: 105px;
+	background: #2674ec;
+	z-index: 0;
+	margin: 3px 3px 3px -3px;
+	transition: all .15s ease-in-out;
+	margin-top: :0px;
+}
+table > td {
+	color: Black;
+}
+
+.box a {
+	color: #fff !important;
+	font-size: medium;
+	font-family: "Segoe UI Light" !important;
+}
+.box:hover {
+	background: #515151;
+	z-index: 10;
+	-webkit-transform: scale(1.1, 1.1) perspective(500px) rotateY(30deg);
+	transform: scale(1.1, 1.1) perspective(500px) rotateY(30deg);
+	box-shadow: 0 5px 10px 0 rgba(0, 0, 0, .2);
+	position: relative;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	cursor: pointer;
+	animation: start 1s ease-out forwards;
+}
+
+#txtFilter {
+	float: left;
+	width: 200px;
+	color: #000;
+	margin: 20px 10px 0 0;
+}
+
+#tblDetails{
+	width: 95%;
+	outline: black solid 1px;
+	margin-left: 10px;
+	text-align:left;
+}
+
+p {
+	margin-bottom: 15px;
+	margin-top: 0px;
+}
+
+h2 {
+	color: #5e5b54;
+}
+
+h2, h3 {
+	margin-bottom: 10px;
+	font-size: 16px;
+	font-style: italic;
+	font-weight: bold;
+}
+
+h3 {
+	color: #9B9993;
+}
+
+header h1 a, h3 em {
+	color: #5E5B54;
+}
+
+a:link, a:visited {
+	color: #F6855E;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+a:hover {
+	color: #333333;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+a:active {
+	color: #006633;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+/***************************** sidebar navigation ****************************/
+
+#categories {
+	font-family: Segoe UI;
+	font-weight: 100;
+	list-style-type: none;
+	border-right: #5d5a53 1px dotted;
+	padding-right: 10px;
+	margin: 0 25px 0 0;
+	float: left;
+}
+
+#categories a:link, #categories a:visited {
+	color: #9B9993;
+	text-decoration: none;
+}
+
+#categories a:hover {
+	color: #F46739;
+}
+
+div#album-details p {
+	margin-bottom: 5px;
+	color: #5e5b54;
+	font-weight: bold;
+}
+
+p em {
+	color: #9b9993;
+}
+
+/* Form styles */
+legend {
+	padding: 10px;
+	font-weight: bold;
+}
+
+fieldset {
+	border: #9b9993 1px solid;
+	padding: 0 10px;
+	margin-bottom: 10px;
+	clear: left;
+}
+
+div.editor-field {
+	margin-bottom: 10px;
+}
+
+input[type=text], input[type=password], select {
+	border: 1px solid #8A8575;
+	width: 300px;
+}
+
+/* Styles for validation helpers */
+.field-validation-error {
+	color: #f00;
+}
+
+.field-validation-valid {
+	display: none;
+}
+
+.input-validation-error {
+	border: 1px solid #f00;
+	background-color: #fee;
+}
+
+.validation-summary-errors {
+	font-weight: bold;
+	color: #f00;
+}
+
+.validation-summary-valid {
+	display: none;
+}
+
+/* Tables */
+table {
+	border: 1px solid #000;
+	border-collapse: collapse;
+	color: #666;
+	min-width: 500px;
+	width: 100%;
+}
+
+tr {
+	border: 1px solid #000;
+	line-height: 25px;
+}
+
+th {
+	background-color: #9b9993;
+	color: #000;
+	font-size: 13px;
+	text-align: left;
+}
+
+th, td {
+	padding-left: 5px;
+}
+
+tr:hover {
+	background-color: #fff;
+}
