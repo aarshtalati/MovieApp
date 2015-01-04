@@ -1,0 +1,13 @@
+﻿@model IEnumerable<string>
+	@{
+		Layout = "~/Views/Shared/_Layout.cshtml";
+	}
+
+
+	<div><b>About :</b></div>
+	<ul class="wrapper filterTarget" style="background-color:#fff !important;">
+		@foreach (var line in Model)
+		{
+			<li style="background-color:#fff !important; margin-top: 1em;">@line</li>
+		}
+	</ul>
