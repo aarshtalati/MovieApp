@@ -17,3 +17,4 @@ C:\Users\Aash\Documents\Visual Studio 2013\Projects\MovieApp\MovieApp\bin\Entity
 C:\Users\Aash\Documents\Visual Studio 2013\Projects\MovieApp\MovieApp\bin\EntityFramework.SqlServer.xml
 C:\Users\Aash\Documents\Visual Studio 2013\Projects\MovieApp\MovieApp\obj\Debug\MovieApp.dll
 C:\Users\Aash\Documents\Visual Studio 2013\Projects\MovieApp\MovieApp\obj\Debug\MovieApp.pdb
+C:\Users\Aash\Documents\Visual Studio 2013\Projects\MovieApp\MovieApp\obj\Debug\MovieApp.csprojResolveAssemblyReference.cache
